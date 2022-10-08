@@ -15,9 +15,10 @@ function App() {
   // Sets the current tab index, so that additional information
   // for selected tab could be displayed. Initially the first one is selected.
   const handleTabClick = (id: string) => {
-    return tabs.filter((t, index) => {
+    tabs.filter((t, index) => {
       if (t.id === id) {
         setCurrentTabIndex(index);
+        return null;
       }
     });
   };
