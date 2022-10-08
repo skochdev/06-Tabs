@@ -20,6 +20,7 @@ function App() {
         setCurrentTabIndex(index);
         return null;
       }
+      return null;
     });
   };
 
