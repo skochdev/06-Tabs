@@ -1,4 +1,4 @@
-export interface ITab {
+export interface Tab {
   id: string;
   order: number;
   title: string;
@@ -12,7 +12,7 @@ export const fetchTabs = async (url: string) => {
     const response = await fetch(url);
 
     if (response.ok) {
-      return (await response.json()) as ITab[];
+      return (await response.json()) as Tab[];
     }
   } catch (error) {
     console.log(error);

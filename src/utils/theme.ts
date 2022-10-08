@@ -18,11 +18,11 @@ export const theme: DefaultTheme = {
     muted: '#b2b2b2',
   },
   fontSizes: {
-    xs: '12px',
-    s: '14px',
-    m: '16px',
-    l: '32px',
-    xl: '64px',
+    xs: '1rem',
+    s: '1.4rem',
+    m: '1.6rem',
+    l: '2.4rem',
+    xl: '3.6rem',
   },
   fontWeights: [400, 500, 700, 900],
   lineHeights: {
