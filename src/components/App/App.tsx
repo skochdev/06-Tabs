@@ -18,7 +18,7 @@ function App() {
     tabs.filter((t, index) => {
       if (t.id === id) {
         setCurrentTabIndex(index);
-        return;
+        return index;
       }
     });
   };
